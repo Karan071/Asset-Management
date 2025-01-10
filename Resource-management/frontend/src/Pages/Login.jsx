@@ -94,7 +94,7 @@ const Login = () => {
             value={input.password}
             name="password"
             onChange={changeEventHandler}
-            placeholder="**********"
+            placeholder="Enter your password"
             className="w-full mt-2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
         </div>
