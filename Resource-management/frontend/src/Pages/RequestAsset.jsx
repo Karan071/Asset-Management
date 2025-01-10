@@ -343,7 +343,7 @@ const AssetRequestForm = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-r from-indigo-500 via-purple-400 to-purple-600 flex items-center justify-center py-6 px-4 sm:px-6 lg:px-8">
+        <div className="font-mono min-h-screen bg-gradient-to-r from-indigo-500 via-purple-400 to-purple-600 flex items-center justify-center py-6 px-4 sm:px-6 lg:px-8">
             <form onSubmit={submitHandler} className="w-full max-w-3xl bg-white p-8 rounded-xl shadow-xl space-y-6">
                 <h1 className="font-extrabold text-2xl text-center text-gray-800 mb-6"> Asset Request</h1>
 

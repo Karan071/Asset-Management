@@ -94,8 +94,8 @@ const Sidebar = () => {
           <li key={index}>
             <Link
               to={item.path}
-              className={`flex items-center gap-4 px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-200 ${
-                location.pathname === item.path ? "bg-blue-600" : ""
+              className={`flex items-center gap-4 px-4 py-2 rounded-lg hover:bg-purple-600 transition-colors duration-200 ${
+                location.pathname === item.path ? "bg-purple-600" : ""
               }`}
             >
               <span className="text-2xl">{item.icon}</span>
